@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sunshine Organisation - Non-profit organization</title>
+    
+<!--------------------favicon icon link-------------------->
+    <link rel="icon" href="images/favicon.ico">
+    
+<!--------------------css link-------------------->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- font awesome link -->
+    <script src="https://kit.fontawesome.com/d5df5ce7ec.js" crossorigin="anonymous"></script>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> 
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/MaterialDesign-Webfont/5.3.45/css/materialdesignicons.css" integrity="sha256-NAxhqDvtY0l4xn+YVa6WjAcmd94NNfttjNsDmNatFVc=" crossorigin="anonymous"/>
+</head>
+
+<body>
+ <!-------------------- NAVIGATION BAR  --------------------->
+ <!-------------------- NAVIGATION BAR  --------------------->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="index.html">
+            <img class="logo" src="images/sunshine logo.png" alt="Sunshine">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="gallery.html">Gallery</a>
+                </li>                                
+                <li class="nav-item">
+                    <div class="dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Be a Volunteer</a>
+                        <div class="dropdown-menu" style="background-color: #033053;">
+                            <a href="#0" class="dropdown-item" style="color: rgba(255,255,255,0.482);">I'm above 18</a>
+                            <a href="#0" class="dropdown-item" style="color: rgba(255,255,255,0.482);">I'm below 18</a>
+                        </div>
+                    </div>
+                </li>                         
+            </ul>
+        </div>
+    </nav>
+  <!-------------------- Head Content --------------------->
+ 		<div class="carousel-inner">
+			<div class="carousel-item active">
+				<img alt="First slide" class="d-block w-100" src="images/home-slider-1.jpg">
+				<div class="carousel-caption">
+					<h4 class="animated zoomIn slow" style="animation-delay: 0.5s">About Us</h4>
+	      <div>
+         <hr class="special4 animated zoomIn slow" style="width: 35%; margin: 0 0 0 23vw; animation-delay: 0.5s;">
+        <hr class="special3 animated zoomIn slow" style="width: 70%; animation-delay: 0.5s;">
+        </div>
+					<p class="animated zoomIn slow" style="animation-delay: 0.5s;">Lorem ipsum dolor sit amet, consectetur</p>
+				</div>
+			</div>
+		</div>
+
+ <!-------------------- First Container --------------------->
+
+<section class="container-background" style="background: rgb(202 235 243)">
+  <div class="p-4">
+    <img src="images/about-head-image.jpg" class="img-fluid w-100" alt="Sunshine Group image"/>
+  </div>
+  <div class="m-3">
+  <h1 class="contain-head text-left">About Sunshine</h1>
+  <div>
+       <hr class="special1" style="width: 150px">
+       <hr class="special">
+    </div>
+    <p> @ Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis magnam hic sapiente
+                        reprehenderit cupiditate natus. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi
+                        aliquam, rem alias vero esse eos dolores vitae. Culpa, harum? Aperiam ducimus explicabo quas
+                        blanditiis nostrum itaque at rerum commodi. Quas.</p>
+                    <p> @ Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, aut.lorem20 Lorem ipsum
+                        dolor sit amet consectetur adipisicing elit. Fuga distinctio dolore eum ratione assumenda quidem
+                        et obcaecati nulla architecto fugiat.</p>
+  </div>
+
+<!----------------Second Container ---------------->
+
+<div class="container px-5">
+<div class="row">
+  <div class="col-lg-3 col-md-6 col-sm-12 my-3">
+    <div class="card text-center text-white" style="background: #033053; border-radius: 25px;">
+      <div class="card-body" style="color: rgb(202 235 243);">
+      <i class="fas fa-bullseye fa-6x"></i>
+      <h3 class="card-title">Our Mission</h3>
+      <p class="card-text">Our goal is to put a smile on the faces of those who are miserable.</p>
+      <button type="button" class="btn btn-outline-light" data-toggle="modal" data-target="#our-mission">Read More
+</button>
+<!-- Modal -->
+<div class="modal fade" id="our-mission" tabindex="-1" role="dialog" aria-labelledby="our-missionTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content" style="background-color:#caebf3">
+      <div class="modal-header">
+        <h5 class="modal-title text-dark">Our Mission</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body text-dark text-justify">
+        <p>"People are for people" . We are on our way to make the best use of this line.Those who just go through society also have a lot to owe to society. But they don't get anything that way. Sunshine means to show the direction of light to the environment. All those people in the society who are miserable, they are pledged to put a small amount of light on them and make them smile.</p>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+      </div>
+    </div>
+  <div class="col-lg-3 col-md-6 col-sm-12 my-3">
+    <div class="card text-center text-white" style="background: #033053; border-radius: 25px;">
+      <div class="card-body" style="color: rgb(202 235 243)">
+      <i class="fas fa-donate fa-6x"></i>
+      <h3 class="card-title">Make Donation</h3>
+      <p class="card-text">We need you helping hand and Support to make a better world.</p>
+      <button type="button" class="btn btn-outline-light" data-toggle="modal" data-target="#make-donation">Read More
+</button>
+<!-- Modal -->
+<div class="modal fade" id="make-donation" tabindex="-1" role="dialog" aria-labelledby="make-donationTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content" style="background-color:#caebf3">
+      <div class="modal-header">
+        <h5 class="modal-title text-dark">Make Donation</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body text-dark text-justify">
+        <p>People are useful to people, so let's all join our work and stand by those people and put a smile on their faces. Since our path has started, it is not possible for one of them, you extend your hand of cooperation as much as you can. Thanks.</p>
+      </div>
+    </div>
+  </div>
+</div>
+      </div>
+    </div>
+  </div>
+  <div class="col-lg-3 col-md-6 col-sm-12 my-3">
+    <div class="card text-center text-white" style="background: #033053; border-radius: 25px;">
+      <div class="card-body" style="color: rgb(202 235 243)">
+      <i class="fas fa-hands-helping fa-6x"></i>
+      <h3 class="card-title">Help & Support</h3>
+      <p class="card-text">Contact us for any assistance, We are always here for you.</p>
+      <button type="button" class="btn btn-outline-light" data-toggle="modal" data-target="#help-support">Read More
+</button>
+<!-- Modal -->
+<div class="modal fade" id="help-support" tabindex="-1" role="dialog" aria-labelledby="help-supportTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content" style="background-color:#caebf3">
+      <div class="modal-header">
+        <h5 class="modal-title text-dark">Help & Support</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body text-dark text-justify">
+            <div class="addresssub">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia magni voluptatibus adipisci est ea, a
+                    delectus consectetur? Placeat ratione cum dolore!</p>
+                <div>
+                    <p><i class="fas fa-map-marker-alt"></i> &nbsp &nbsp
+                        Ghutiari Sharif, Bansra, Jibantala, South 24 Parganas, 743363</p>
+                </div>
+                <div>
+                    <p><i class="fas fa-phone-square-alt">&nbsp &nbsp &nbsp</i>+91 8584862956</p>
+                </div>
+                <div>
+                    <p><i class="fab fa-whatsapp-square">&nbsp &nbsp &nbsp</i>+91 8584862956</p>
+                </div>
+                <div>
+                    <a class="text-dark" href="mailto:thesunshinengo@gmail.com"><i class="fas fa-envelope-square"></i>&nbsp &nbsp
+                    &nbsp
+                    thesunshinengo@gmail.com</a>
+                </div>
+            </div>
+      </div>
+    </div>
+  </div>
+</div>
+      </div>
+    </div>
+  </div>
+  <div class="col-lg-3 col-md-6 col-sm-12 my-3">
+    <div class="card text-center" style="background: #033053; border-radius: 25px;">
+      <div class="card-body" style="color: rgb(202 235 243);">
+      <i class="fas fa-puzzle-piece fa-6x"></i>
+      <h3 class="card-title">Our Programmes</h3>
+      <p class="card-text">Health, education, environmental cooperation.</p>
+      <button type="button" class="btn btn-outline-light" data-toggle="modal" data-target="#our-programmes">Read More
+</button>
+<!-- Modal -->
+<div class="modal fade" id="our-programmes" tabindex="-1" role="dialog" aria-labelledby="our-programmesTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content" style="background-color:#caebf3">
+      <div class="modal-header">
+        <h5 class="modal-title text-dark">Our Programmes</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body text-dark text-justify">
+        <p>"People are for people" . We are on our way to make the best use of this line.Those who just go through society also have a lot to owe to society. But they don't get anything that way. Sunshine means to show the direction of light to the environment. All those people in the society who are miserable, they are pledged to put a small amount of light on them and make them smile.</p>
+      </div>
+    </div>
+  </div>
+</div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</section>
+
+ <!-------------------- Third Container --------------------->
+
+<section class="container-background" style="background: rgb(202 235 243)">
+<div class="container">
+    <h1 class="contain-head">Our Team</h1>
+    <div>
+       <hr class="special1" style="width: 35%; margin: 0 0 0 30vw;">
+       <hr class="special" style="width: 87%">
+    </div>
+
+    <div class="row">        
+    <div class="col-lg-3 col-md-6 col-12 mt-4 pt-2">
+            <div class="mt-4 mx-4">
+                <div class="team position-relative d-block text-center">
+                    <div class="image position-relative d-block overflow-hidden">
+                        <img src="images/dipanjan_haldar.jpg" class="img-fluid rounded" alt="">
+                        <div class="overlay rounded bg-dark"></div>
+                    </div>
+                    <div class="content py-2 member-position bg-white border-bottom overflow-hidden rounded d-inline-block">
+                        <h4 class="title mb-0">Dipanjan Haldar</h4>
+                        <small class="text-muted">Co-Founder</small>
+                    </div>
+                    <ul class="list-unstyled team-social social-icon social mb-0">
+                        <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i class="mdi mdi-facebook" title="Facebook"></i></a></li>
+                        <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i class="mdi mdi-instagram" title="Instagram"></i></a></li>
+                        <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i class="mdi mdi-twitter" title="Twitter"></i></a></li>
+                        <li class="list-inline-item"><a href="mailto:thesunthesunshinengo@gmail.com" class="rounded"><i class="mdi mdi-email" title="Mail"></i></a></li>
+                    </ul><!--end icon-->
+                </div>
+            </div>
+        </div><!--end col-->
+        
+        <div class="col-lg-3 col-md-6 col-12 mt-4 pt-2">
+            <div class="mt-4 mx-4">
+                <div class="team position-relative d-block text-center">
+                    <div class="image position-relative d-block overflow-hidden">
+                        <img src="images/suvendu_sarkar.jpg" class="img-fluid rounded" alt="">
+                        <div class="overlay rounded bg-dark"></div>
+                    </div>
+                    <div class="content py-2 member-position bg-white border-bottom overflow-hidden rounded d-inline-block">
+                        <h4 class="title mb-0">Suvendu Sarkar</h4>
+                        <small class="text-muted">Co-Founder</small>
+                    </div>
+                    <ul class="list-unstyled team-social social-icon social mb-0">
+                        <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i class="mdi mdi-facebook" title="Facebook"></i></a></li>
+                        <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i class="mdi mdi-instagram" title="Instagram"></i></a></li>
+                        <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i class="mdi mdi-twitter" title="Twitter"></i></a></li>
+                        <li class="list-inline-item"><a href="mailto:thesunthesunshinengo@gmail.com" class="rounded"><i class="mdi mdi-email" title="Mail"></i></a></li>
+                    </ul><!--end icon-->
+                </div>
+            </div>
+        </div><!--end col-->
+        <div class="col-lg-3 col-md-6 col-12 mt-4 pt-2">
+            <div class="mt-4 mx-4">
+                <div class="team position-relative d-block text-center">
+                    <div class="image position-relative d-block overflow-hidden">
+                        <img src="images/sangramjit_biswas.jpg" class="img-fluid rounded" alt="">
+                        <div class="overlay rounded bg-dark"></div>
+                    </div>
+                    <div class="content py-2 member-position bg-white border-bottom overflow-hidden rounded d-inline-block">
+                        <h4 class="title mb-0">Sangramjit Biswas</h4>
+                        <small class="text-muted">Co-Founder</small>
+                    </div>
+                    <ul class="list-unstyled team-social social-icon social mb-0">
+                        <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i class="mdi mdi-facebook" title="Facebook"></i></a></li>
+                        <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i class="mdi mdi-instagram" title="Instagram"></i></a></li>
+                        <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i class="mdi mdi-twitter" title="Twitter"></i></a></li>
+                        <li class="list-inline-item"><a href="mailto:thesunthesunshinengo@gmail.com" class="rounded"><i class="mdi mdi-email" title="Mail"></i></a></li>
+                    </ul><!--end icon-->
+                </div>
+            </div>
+        </div><!--end col-->
+        <div class="col-lg-3 col-md-6 col-12 mt-4 pt-2">
+            <div class="mt-4 mx-4">
+                <div class="team position-relative d-block text-center">
+                    <div class="image position-relative d-block overflow-hidden">
+                        <img src="images/subham_haldar.jpg" class="img-fluid rounded" alt="">
+                        <div class="overlay rounded bg-dark"></div>
+                    </div>
+                    <div class="content py-2 member-position bg-white border-bottom overflow-hidden rounded d-inline-block">
+                        <h4 class="title mb-0">Subham Haldar</h4>
+                        <small class="text-muted">Co-Founder</small>
+                    </div>
+                    <ul class="list-unstyled team-social social-icon social mb-0">
+                        <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i class="mdi mdi-facebook" title="Facebook"></i></a></li>
+                        <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i class="mdi mdi-instagram" title="Instagram"></i></a></li>
+                        <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i class="mdi mdi-twitter" title="Twitter"></i></a></li>
+                        <li class="list-inline-item"><a href="mailto:thesunthesunshinengo@gmail.com" class="rounded"><i class="mdi mdi-email" title="Mail"></i></a></li>
+                    </ul><!--end icon-->
+                </div>
+            </div>
+        </div><!--end col-->
+        <div class="col-lg-3 col-md-6 col-12 mt-4 pt-2">
+            <div class="mt-4 mx-4">
+                <div class="team position-relative d-block text-center">
+                    <div class="image position-relative d-block overflow-hidden">
+                        <img src="images/rupam_sardar.jpg" class="img-fluid rounded" alt="">
+                        <div class="overlay rounded bg-dark"></div>
+                    </div>
+                    <div class="content py-2 member-position bg-white border-bottom overflow-hidden rounded d-inline-block">
+                        <h4 class="title mb-0">Rupam Sardar</h4>
+                        <small class="text-muted">Co-Founder</small>
+                    </div>
+                    <ul class="list-unstyled team-social social-icon social mb-0">
+                        <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i class="mdi mdi-facebook" title="Facebook"></i></a></li>
+                        <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i class="mdi mdi-instagram" title="Instagram"></i></a></li>
+                        <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i class="mdi mdi-twitter" title="Twitter"></i></a></li>
+                        <li class="list-inline-item"><a href="mailto:thesunthesunshinengo@gmail.com" class="rounded"><i class="mdi mdi-email" title="Mail"></i></a></li>
+                    </ul><!--end icon-->
+                </div>
+            </div>
+        </div><!--end col-->
+        <div class="col-lg-3 col-md-6 col-12 mt-4 pt-2">
+            <div class="mt-4 mx-4">
+                <div class="team position-relative d-block text-center">
+                    <div class="image position-relative d-block overflow-hidden">
+                        <img src="images/sagar_mondal.jpg" class="img-fluid rounded" alt="">
+                        <div class="overlay rounded bg-dark"></div>
+                    </div>
+                    <div class="content py-2 member-position bg-white border-bottom overflow-hidden rounded d-inline-block">
+                        <h4 class="title mb-0">Sagar Mondal</h4>
+                        <small class="text-muted">Co-Founder</small>
+                    </div>
+                    <ul class="list-unstyled team-social social-icon social mb-0">
+                        <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i class="mdi mdi-facebook" title="Facebook"></i></a></li>
+                        <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i class="mdi mdi-instagram" title="Instagram"></i></a></li>
+                        <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i class="mdi mdi-twitter" title="Twitter"></i></a></li>
+                        <li class="list-inline-item"><a href="mailto:thesunthesunshinengo@gmail.com" class="rounded"><i class="mdi mdi-email" title="Mail"></i></a></li>
+                    </ul><!--end icon-->
+                </div>
+            </div>
+        </div><!--end col-->
+   </div>
+<br></br>
+</section>
+
+   <!-------------------- footer --------------------->
+   <footer>
+        <div class="top-bar">
+        </div>
+        <div class="container-fluid" id="footer-container">
+           <div class="row">
+             <div class="col column-box footer-head">
+                <h1 class="headline">About Us</h1>
+             <div>
+            <hr class="special1" style="width: 130px">
+            <hr class="special">
+             </div>                                 
+                    <p> @ Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis magnam hic sapiente
+                        reprehenderit cupiditate natus. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi
+                        aliquam, rem alias vero esse eos dolores vitae. Culpa, harum? Aperiam ducimus explicabo quas
+                        blanditiis nostrum itaque at rerum commodi. Quas.</p>
+                    <p> @ Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, aut.lorem20 Lorem ipsum
+                        dolor sit amet consectetur adipisicing elit. Fuga distinctio dolore eum ratione assumenda quidem
+                        et obcaecati nulla architecto fugiat.</p>
+                </div>
+                <div class="col column-box footer-head">
+                    <h1 class="headline">Popular Tweets</h1>
+                <div>
+            <hr class="special1" style="width: 220px">
+            <hr class="special">
+                  </div>
+                    <p> @ Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque! Lorem ipsum dolor sit amet,
+                        consectetur adipisicing elit. Ab, natus corporis ad unde iusto consectetur hic culpa aut libero
+                        sapiente!</p>
+                    <p> @ Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem.</p>
+                    <p> @ Lorem ipsum, dolor sit amet consectetur Lorem ipsum dolor sit amet consectetur adipisicing
+                        elit. Ad repellat et, harum doloribus perferendis reiciendis magnam consequuntur eos cupiditate
+                        incidunt! adipisicing.</p>
+                    <p> @ Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi.</p>
+                </div>
+       <div class="col column-box footer-head">
+            <h1 class="headline">Contact Us</h1>
+              <div>
+                 <hr class="special1" style="width: 150px">
+                 <hr class="special">
+              </div>
+              
+						<div class="">
+                <form id="submit-form" action="">
+								<div class="form-group">
+										<input type="text" id="name" name="name" class="form-control" style="background-color: #30a5ff; border:1px solid #033053;" placeholder="Enter your Name*" required>
+								</div>
+								<div class="form-group">
+										<input type="email" id="email" name="email" class="form-control" style="background-color: #30a5ff; border:1px solid #033053;" placeholder="Enter your email address*" required>
+								</div>
+								<div class="form-group">
+										<input type="tel" id="phone" name="phone" pattern="[0-9]{10}" class="form-control" style="background-color: #30a5ff; border:1px solid #033053;" style="background-color: #30a5ff; border:1px solid #033053;" placeholder="Enter your contact no. (optional)">
+								</div>
+								<div class="form-group">
+										<textarea id="message" name="message" class="form-control" style="background-color: #30a5ff; border:1px solid #033053;" placeholder="Enter your message*" rows="3" required></textarea> 
+								</div>
+								<div>
+								  <input type="reset" value="reset" class="btn btn-primary btn-sm px-4 float-right ml-2"> 
+								  <input type="submit" value="Submit" class="btn btn-primary btn-sm px-4 float-right">
+								</div>
+                </form>
+		            </div>
+              </div>
+            </div>
+         </div>                
+        <div class="copyright">
+            © 2021 Sunshine Organisation. | Non-profit Organisation | All Rights Reserved | Created By Arnab Kanti Pal
+        </div>
+    </footer>
+<script>
+  $("#submit-form").submit((e)=>{
+      e.preventDefault()
+      $.ajax({
+      url:"https://script.google.com/macros/s/AKfycbxEpYc_sgKdtUOaj3VwlHH63rGFXD5aORdO9IhqtUTF-5vrkxoTsA9VYSUeSaLaE5-R/exec",
+      data:$("#submit-form").serialize(),
+      method:"post",
+      success:function (response){
+      alert("Your message sent successfully")
+      window.location.reload()
+    //window.location.href="https://google.com"
+      },
+      error:function (err){
+      alert("Your message not sent")
+    
+      }
+   })
+})
+</script>
+
+
+</body>
+</html>
