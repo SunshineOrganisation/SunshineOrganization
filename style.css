@@ -46,7 +46,14 @@
   position: absolute;
   width: 17vw;
   left: 67vw;
-  bottom: 22vw;
+  bottom: 28vw;
+}
+.scrolling-text{
+  background-color: #033053;
+  display: flex;
+  font-size: 3vw;
+  font-family: serif;
+  padding: 5px;
 }
 /*----------SECOND CONTAINER ------------*/
 
