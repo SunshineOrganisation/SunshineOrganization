@@ -229,30 +229,12 @@
       data:$("#submit-form").serialize(),
       method:"post",
       success:function (response){
-      alert("Your message sent successfully")
+      alert("Your message sent successfully, Our team will reach you shortly.")
       window.location.reload()
-                    //window.location.href="https://google.com"
+      //window.location.href="https://google.com"
       },
       error:function (err){
-      alert("Your message not sent")
-    
-      }
-   })
-})
-<script>
-  $("#submit-form").submit((e)=>{
-      e.preventDefault()
-      $.ajax({
-      url:"https://script.google.com/macros/s/AKfycbxEpYc_sgKdtUOaj3VwlHH63rGFXD5aORdO9IhqtUTF-5vrkxoTsA9VYSUeSaLaE5-R/exec",
-      data:$("#submit-form").serialize(),
-      method:"post",
-      success:function (response){
-      alert("Your message sent successfully")
-      window.location.reload()
-                    //window.location.href="https://google.com"
-      },
-      error:function (err){
-      alert("Your message not sent")
+      alert("Contact message not sent")
     
       }
    })
