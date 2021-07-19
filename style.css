@@ -4,9 +4,9 @@
     background-color:  #033053;
 }
 .logo{
-    width: 20vw;
+    width: 81px;
     height: auto;
-    margin-left: 2vw;
+    margin-left: 8px;
 }
 }
 .nav-item{
@@ -14,7 +14,7 @@
 }
 .nav-link, 
 .dropdown-item{
-    font-size: 4vw;
+    font-size: 17px;
 }
 .nav-link:hover{
     color: blueviolet;
@@ -26,6 +26,9 @@
 }
 /*----------first and second carousel-----------*/
 
+.carousel-inner{
+  margin-top: 65px;
+}
 .carousel-caption h4{
  font-size: 6vw;
  margin: 0vh 0vh 3vh 0vb;
