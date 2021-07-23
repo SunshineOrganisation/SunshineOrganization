@@ -12,20 +12,20 @@
 .nav-item{
     padding: 0 10px;
 }
-.nav-link, 
+.nav-link,
 .dropdown-item{
     font-size: 17px;
 }
 .nav-link:hover{
     color: blueviolet;
 }
-.first-heading{
-    font-family: serif;
-    color: #033053;
-    font-size: 7vw;
-}
-/*----------first and second carousel-----------*/
 
+/*----------first carousel-----------*/
+
+.updates{
+  height: 90vw;
+  color: rgb(202 235 243);
+}
 .carousel-inner{
   margin-top: 65px;
 }
@@ -36,28 +36,7 @@
 .carousel-caption p{
   font-size: 3vw;
 }
-.carousel-caption a p{
-  font-size: 3vw;
-}
-.carousel-caption{
-  text-align: left;
-}
-.carousel-caption h3{
- font-size: 4vw;
-} 
-#blood-group{
-  position: absolute;
-  width: 17vw;
-  left: 67vw;
-  bottom: 28vw;
-}
-.scrolling-text{
-  background-color: #033053;
-  display: flex;
-  font-size: 3vw;
-  font-family: serif;
-  padding: 5px;
-}
+
 /*----------SECOND CONTAINER ------------*/
 
 .contain-head{
