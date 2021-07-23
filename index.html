@@ -536,79 +536,8 @@
         </div>
       </div>
     </div> <!-- /.modal -->
-
- <!----------------- Contact form script ------------------>
-<script>
-  $("#submit-form").submit((e)=>{
-      e.preventDefault()
-      $.ajax({
-      url:"https://script.google.com/macros/s/AKfycbxEpYc_sgKdtUOaj3VwlHH63rGFXD5aORdO9IhqtUTF-5vrkxoTsA9VYSUeSaLaE5-R/exec",
-      data:$("#submit-form").serialize(),
-      method:"post",
-      success:function (response){
-      alert("Your message sent successfully, Our team will reach you shortly.")
-      window.location.reload()
-      //window.location.href="https://google.com"
-      },
-      error:function (err){
-      alert("Contact message not sent")
     
-      }
-   })
-})
-</script>
-
- <!--------------- Progress-bar value script---------------->
-
-<script>
-    $('.fund-per').each(function () {
-            var $this = $(this);
-            var per = $this.attr('per');
-            $this.css("width", per + '%');
-            $({ animatedValue: 0 }).animate({ animatedValue: per }, {
-                duration: 1000,
-                step: function () {
-                    $this.attr('per', ('₹') + Math.floor(this.animatedValue) * "100");
-                },
-                complete: function () {
-                    $this.attr('per', ('₹') + Math.floor(this.animatedValue) * "100");
-                }
-            });
-        });
-</script>
-
- <!------------- Payment method option script-------------->
- 
-<script>
-    $(document).ready(function(){
-    $('#myselection').on('change', function(){
-    	var optionvalue = $(this).val(); 
-        $("div.myDiv").hide();
-        $("#show"+optionvalue).show();
-    });
-});
-</script>
-
- <!----------------- Donate form script ------------------>
-<script>
-  $("#donate-form").submit((e)=>{
-      e.preventDefault()
-      $.ajax({
-      url:"https://script.google.com/macros/s/AKfycbyTAxE_Xs-ycQ4gcY2KpEN1pOvOGdBT3vTTUZ-PFDfg8b_1CA9xxWMIdRpYF2iN66DufA/exec",
-      data:$("#donate-form").serialize(),
-      method:"post",
-      success:function (response){
-      alert("Thank you, the form submitted successfully and we have received your donation")
-      window.location.reload()
-      //window.location.href="https://google.com"
-      },
-      error:function (err){
-      alert("If your Payment was successful in your payment app, then we received your donation, but there is something wrong, please try again later")
-    
-      }
-   })
-})
-</script>
+<script type="text/javascript" src="script.js"></script>
 
 </body>
 </html>
