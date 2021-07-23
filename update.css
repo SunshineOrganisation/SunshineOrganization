@@ -1,0 +1,67 @@
+section{
+  height: 90vw;
+}
+.first-heading{
+  color: #033053;
+  font-family: serif;
+}
+.carousel{
+  height: 67vw;
+}
+.slimg{
+  height: 60vw;
+}
+.carousel-caption{
+  height: 60vw;
+  width: 60vw;
+ }
+.carousel-caption p{
+  font-size: 3vw;
+}
+.carousel-caption a p{
+  font-size: 3vw;
+}
+.carousel-caption h3{
+ font-size: 4vw;
+} 
+#blood-group{
+  position: absolute;
+  width: 17vw;
+  left: 67vw;
+  bottom: 28vw;
+}
+.scrolling-text{
+  background-color: #033053;
+  display: flex;
+  font-size: 3vw;
+  font-family: serif;
+  padding: 5px;
+}
+/*----------------Donate Modal ----------------*/
+
+.special1{
+    border-bottom: 1.2px solid #033053;
+
+    margin-bottom: 0;
+    margin-left: 0;
+}
+.special{
+    border-top: 1.2px solid #033053;
+    margin-top: 0;
+} 
+.myDiv{
+  display: none;
+}
+.form-label{
+  font-size: 12px;
+}
+.payment-notice{
+  font-size: 9px;
+  margin-top: 10px;
+}
+.modal-logo{
+  width: 70px;
+  height: auto;
+  margin-left: 7px;
+}
+
