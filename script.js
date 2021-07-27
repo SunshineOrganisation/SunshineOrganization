@@ -51,7 +51,7 @@ $('#myselection').on('change', function(){
 $("#donate-form").submit((e)=>{
       e.preventDefault()
       $.ajax({
-      url:"https://script.google.com/macros/s/AKfycbyTAxE_Xs-ycQ4gcY2KpEN1pOvOGdBT3vTTUZ-PFDfg8b_1CA9xxWMIdRpYF2iN66DufA/exec",
+      url:"https://script.google.com/macros/s/AKfycbwLSWsgDBOdddt_3b_HWmFSgva2jGOWZTUniAnhLpCk1rOhXCaB/exec",
       data:$("#donate-form").serialize(),
       method:"post",
       success:function (response){
