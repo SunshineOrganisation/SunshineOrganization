@@ -51,11 +51,28 @@ $('#myselection').on('change', function(){
 $("#donate-form").submit((e)=>{
       e.preventDefault()
       $.ajax({
-      url:"https://script.google.com/macros/s/AKfycbwLSWsgDBOdddt_3b_HWmFSgva2jGOWZTUniAnhLpCk1rOhXCaB/exec",
+      url:"https://script.google.com/macros/s/AKfycby_yF68XlczFz0wgLbIkOkhyYy21wzCfgtCbbvB-_grhp0SEjQ/exec",
       data:$("#donate-form").serialize(),
       method:"post",
       success:function (response){
       alert("Thank you, the form submitted successfully and we have received your donation")
+      window.location.reload()
+      //window.location.href="https://google.com"
+      },
+      error:function (err){
+      alert("If your Payment was successful in your payment app, then we received your donation, but there is something wrong, please try again later")
+    
+      }
+   })
+})
+$("#membership-fees").submit((e)=>{
+      e.preventDefault()
+      $.ajax({
+      url:"https://script.google.com/macros/s/AKfycbwi7TlArruKPoBmAjSlwH9Yl1C-To6OhPKPi8b1QL4kzMSGdJc/exec",
+      data:$("#membership-fees").serialize(),
+      method:"post",
+      success:function (response){
+      alert("Thank you, the form submitted successfully, If Your Payment is valid, then You will get your Challan in Your registered mail address")
       window.location.reload()
       //window.location.href="https://google.com"
       },
@@ -98,3 +115,5 @@ $(this).after('<a href="" class="morelink">' + moretext + '</a>');
 	  }
 	  return false;
 	});
+	
+	
