@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sunshine Organisation - Non-profit organization</title>
+    
+<!--------------------favicon icon link-------------------->
+    <link rel="icon" href="images/favicon.ico">
+    
+<!--------------------css link-------------------->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- font awesome link -->
+    <script src="https://kit.fontawesome.com/d5df5ce7ec.js" crossorigin="anonymous"></script>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> 
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+ <!-------------------- NAVIGATION BAR  --------------------->
+ <!-------------------- NAVIGATION BAR  --------------------->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="index.html">
+            <img class="logo" src="images/sunshine logo.png" alt="Sunshine">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="gallery.html">Gallery</a>
+                </li>                                
+                <li class="nav-item">
+                    <div class="dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Be a Volunteer</a>
+                        <div class="dropdown-menu" style="background-color: #033053;">
+                            <a href="https://forms.gle/B2X9d14sZ1883zuB9" class="dropdown-item" style="color: rgba(255,255,255,0.482);">I'm above 18</a>
+                            <a href="https://forms.gle/xrQ5NWB6sakKFdZWA" class="dropdown-item" style="color: rgba(255,255,255,0.482);">I'm below 18</a>
+                            <a href="membership-fees.html" class="dropdown-item" style="color: rgba(255,255,255,0.482);">Membership Fees</a>
+                        </div>
+                    </div>
+                </li>                         
+            </ul>
+        </div>
+    </nav>
+ <!-------------------- Form --------------------->
+<section class="container-background" style="background: rgb(202 235 243); padding-top: 60px;">
+<div class="container">
+<div class="row">
+    <div class="card-body">
+   <p class="text-danger text-center" style="font-size:9px">*Only if you've already received a "Call Verification Successful" mail from us, then pay</p> 
+    <h5 class="title-style-1 text-center">Pay Your Membership fees</h5>
+    <div>
+       <hr class="special1" style="width: 30%; margin: 0 0 0 31vw;">
+       <hr class="special" style="width: 87%">
+    </div>
+  <div class="text-center" style="font-size: 10px;">
+  <p>For any kind of problem related to this payment, kindly <a href="contact.html">Contact Us</a>.</p>
+  </div>
+    <div class="container">
+      <div class="row">
+         <form class="form-donation col-md-6" id="membership-fees" name="doform">
+                        <div class="row">
+                            <div class="form-group col-md-12">
+                              <label for="Payment Method">Payment Method</label>
+                                <select class="form-rol basic for-pad" id="myselection" name="PaymentMethod" required>
+	<option disabled selected></option>
+	<option value="GooglePay">Google Pay</option>
+	<option value="PhonePe">PhonePe</option>
+	<option value="AmazonPay">Amazon Pay</option>
+	<option value="Paytm">Paytm</option>
+	<option value="Bank">Bank</option>
+                             </select>
+                            </div>
+                         </div>
+                         <div class="row">
+                         <div class="form-group col-md-12">
+                             <label for="Transaction Id">Transaction Id</label>
+                               <input type="text" class="form-rol basic for-padd" name="TransactionID" required>
+                          <small class="payment-notice text-danger">*Copy the Transaction ID from your payment app, and paste here.</small>
+                         </div>
+                         </div>
+                        <div class="row">
+                           <div class="form-group col-md-6">
+                             <label for="Application Id">Application Id</label>
+                               <input type="text" class="form-rol basic for-padd" name="ApplicationID" maxlength="10" pattern="[S]{1}[S]{1}[A]{1}[P]{1}[M/A]{1}[0-9]{4}[A-Z]{1}" autocapitalize="characters" required>
+                         </div>
+                           <div class="form-group col-md-6">
+                             <label for="Date of Birth">Date of Birth</label>
+                               <input type="date" name="Birthdate" class="form-rol basic for-pad" required>
+                         </div>
+                        </div>
+                        <div class="text-center mb-3">
+  <button type="submit" class="btn btn-info btn-cen mt-3" name="payNow">Submit</button>
+</div>
+                </form>
+      
+<div class="container col-md-5 mt-3 ml-3">
+<div id="showGooglePay" class="myDiv">
+  <div class="row">
+  <div class="qr">
+	<img src="images/gpay.jpg" width="150" alt="Google Pay UPI ID"/>
+	</div>
+	<div class="ml-2">
+	<h6>G Pay UPI ID:</h6>
+	<p>barish95644<br>@okhdfcbank</p>
+	<h6>Google Pay No.</h6>
+	<p>9564117738</p>
+	</div>
+	</div>
+	<p class="payment-notice text-center text-danger">*Scan the QR code or pay through UPI or the Google Pay number</p> 
+</div>
+<div id="showPhonePe" class="myDiv">
+  <div class="row">
+  <div class="qr">
+	<img src="images/phpe.jpg" width="150" alt="PhonePe UPI ID"/>
+	</div>
+	<div class="ml-2">
+	<h6>PhonePe UPI ID:</h6>
+	<p>9564117738@ybl</p>
+	<h6>PhonePe number</h6>
+	<p>9564117738</p>
+	</div>
+	</div>
+	<p class="payment-notice text-center text-danger">*Scan the QR code or pay through UPI or the PhonePe Pay number</p>
+</div>
+<div id="showAmazonPay" class="myDiv">  <div class="row">
+  <div class="qr">
+	<img src="images/amznpay.jpg" width="150" alt="Amazon UPI ID"/>
+	</div>
+	<div class="ml-2">
+	<h6>Amazon UPI ID:</h6>
+	<p>9564117738<br>@apl</p>
+	<h6>Amazon pay no.</h6>
+	<p>9564117738</p>
+	</div>
+	</div>
+	<p class="payment-notice text-center text-danger">*Scan the QR code or pay through UPI or the Amazon Pay number</p>
+</div>
+<div id="showPaytm" class="myDiv">
+  <div class="row">
+  <div class="qr">
+	<img src="images/paytm.jpg" width="150" alt="Paytm"/>
+	</div>
+	<div class="ml-2">
+	<h6>Paytm UPI ID:</h6>
+	<p>9564117738<br>@paytm</p>
+	<h6>Paytm number</h6>
+	<p>9564117738</p>
+	</div>
+	</div>
+	<p class="payment-notice text-center text-danger">*Scan the QR code or pay through UPI or the Paytm number</p>
+</div>
+<div id="showBank" class="myDiv">
+	<p><b>Bank Name:</b> State Bank of India</p>
+	<p><b>Account number:</b> 00000039150385896</p>
+	<p><b>IFSC CODE:</b> SBIN0014030</p>
+	<p><b>Account holder name:</b> SHEFALI HALDAR</p>
+	<p><b>Branch name:</b> TALDI BRANCH</p>
+	<p class="payment-notice text-center text-danger">*write the bank details carefully before making the payment</p>
+</div>
+</div>
+    </div>
+       </div>
+          </div>
+</div>
+</div>
+ </section>
+   <!-------------------- footer --------------------->
+   <footer>
+        <div class="copyright top-bar">
+            © 2021 Sunshine Organisation. | Non-profit Organisation | All Rights Reserved | Created By Sangramjit Biswas
+        </div>
+    </footer>
+
+<script type="text/javascript" src="script.js"></script>
+
+</body>
+</html>
