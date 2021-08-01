@@ -71,6 +71,7 @@
                         <div class="dropdown-menu" style="background-color: #033053;">
                             <a href="https://forms.gle/B2X9d14sZ1883zuB9" class="dropdown-item" style="color: rgba(255,255,255,0.482);">I'm above 18</a>
                             <a href="https://forms.gle/xrQ5NWB6sakKFdZWA" class="dropdown-item" style="color: rgba(255,255,255,0.482);">I'm below 18</a>
+                            <a href="membership-fees.html" class="dropdown-item" style="color: rgba(255,255,255,0.482);">Membership Fees</a>
                         </div>
                     </div>
                 </li>                         
@@ -87,7 +88,7 @@
          <hr class="special4 animated zoomIn slow" style="width: 35%; margin: 0 0 0 23vw; animation-delay: 1s;">
         <hr class="special3 animated zoomIn slow" style="width: 70%; animation-delay: 1s;">
         </div>
-					<p class="animated zoomIn slow" style="animation-delay: 1s;">Glimps of our works</p>
+					<p class="animated zoomIn slow" style="animation-delay: 1s;">Glimpse of our works</p>
 				</div>
 			</div>
 		</div>
@@ -189,57 +190,8 @@ Stay safe and healthy. Stay with us to provide little happiness to those people.
             © 2021 Sunshine Organisation. | Non-profit Organisation | All Rights Reserved | Created By Arnab Kanti Pal
         </div>
     </footer>
-<script>
-  $("#submit-form").submit((e)=>{
-      e.preventDefault()
-      $.ajax({
-      url:"https://script.google.com/macros/s/AKfycbxEpYc_sgKdtUOaj3VwlHH63rGFXD5aORdO9IhqtUTF-5vrkxoTsA9VYSUeSaLaE5-R/exec",
-      data:$("#submit-form").serialize(),
-      method:"post",
-      success:function (response){
-      alert("Your message sent successfully, Our team will reach you shortly.")
-      window.location.reload()
-      //window.location.href="https://google.com"
-      },
-      error:function (err){
-      alert("Contact message not sent")
     
-      }
-   })
-})
-</script>
-<script>
-var showChar = 300;
-	var ellipsestext = "...";
-	var moretext = "more";
-	var lesstext = "less";
-	$('.more').each(function() {
-	  var content = $(this).html();
-	  var textcontent = $(this).text();
-	  if (textcontent.length > showChar) {
-	    var c = textcontent.substr(0, showChar);
-	    var html = '<span class="container"><span>' + c + '</span>' + '<span class="moreelipses">' + ellipsestext + '</span></span><span class="morecontent">' + content + '</span>';
-	    $(this).html(html);
-$(this).after('<a href="" class="morelink">' + moretext + '</a>');
-	  }
-	});
-	$(".morelink").click(function() {
-	  if ($(this).hasClass("less")) {
-	    $(this).removeClass("less");
-	    $(this).html(moretext);
-        $(this).prev().children('.morecontent').fadeToggle(500, function(){
-          $(this).prev().fadeToggle(500);
-        });
-	  } else {
-	    $(this).addClass("less");
-	    $(this).html(lesstext);
-        $(this).prev().children('.container').fadeToggle(500, function(){
-          $(this).next().fadeToggle(500);
-        });
-	  }
-	  return false;
-	});
-</script>
+<script type="text/javascript" src="script.js"></script>
 
 </body>
 </html>
