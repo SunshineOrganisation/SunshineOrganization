@@ -22,10 +22,6 @@
 
 /*----------first carousel-----------*/
 
-.updates{
-  height: 90vw;
-  color: rgb(202 235 243);
-}
 .carousel-inner{
   margin-top: 65px;
 }
@@ -364,4 +360,14 @@ a {
 }
 .btn-cen{
   width: 100%;
+}
+
+.scrolling-text{
+
+  background-color: #033053;
+
+  display: flex;
+  font-size: 3vw;
+  font-family: serif;
+  padding: 5px;
 }
