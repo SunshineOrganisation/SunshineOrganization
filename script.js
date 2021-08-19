@@ -65,6 +65,25 @@ $("#donate-form").submit((e)=>{
       }
    })
 })
+
+$("#donate-event").submit((e)=>{
+      e.preventDefault()
+      $.ajax({
+      url:"https://script.google.com/macros/s/AKfycbyXrVaSeMwguUz11UvNPKcfVljMgoVuE8W21BMc2g/exec",
+      data:$("#donate-event").serialize(),
+      method:"post",
+      success:function (response){
+      alert("Thank you, the form submitted successfully and if Your donation is valid then you will receive your donation Challan to your entered Mail address, within 24 hours.")
+      window.location.reload()
+      //window.location.href="https://google.com"
+      },
+      error:function (err){
+      alert("If your Payment was successful in your payment app, then we received your donation, but there is something wrong, please try again later")
+    
+      }
+   })
+})
+
 $("#membership-fees").submit((e)=>{
       e.preventDefault()
       $.ajax({
