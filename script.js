@@ -134,5 +134,3 @@ $(this).after('<a href="" class="morelink">' + moretext + '</a>');
 	  }
 	  return false;
 	});
-	
-	
