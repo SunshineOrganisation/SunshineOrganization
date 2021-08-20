@@ -55,7 +55,7 @@ $("#donate-form").submit((e)=>{
       data:$("#donate-form").serialize(),
       method:"post",
       success:function (response){
-      alert("Thank you, the form submitted successfully and we have received your donation")
+      alert("Thank you, your form has been submitted successfully. If your donation is valid, you will receive a challan in your mail within 24hrs.")
       window.location.reload()
       //window.location.href="https://google.com"
       },
