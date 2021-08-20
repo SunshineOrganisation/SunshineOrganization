@@ -73,7 +73,7 @@ $("#donate-event").submit((e)=>{
       data:$("#donate-event").serialize(),
       method:"post",
       success:function (response){
-      alert("Thank you, the form submitted successfully and if Your donation is valid then you will receive your donation Challan to your entered Mail address, within 24 hours.")
+      alert("Thank you, your form has been submitted successfully. If your donation is valid, you will receive a challan in your mail within 24hrs.")
       window.location.reload()
       //window.location.href="https://google.com"
       },
